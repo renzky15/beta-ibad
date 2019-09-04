@@ -18,7 +18,7 @@ export default class Job extends Component {
     };
     handleRead = () => {
         // e.preventDefault();
-        Axios.get('https://ibad-api.herokuapp.com/react/api/Job/read.php')
+        Axios.get('https://ibad-api.herokuapp.com/api/Job/read.php')
             .then(response => {
                 console.log(response)
                 // const response_data =[];
@@ -75,7 +75,7 @@ export default class Job extends Component {
         })
     };
     handleDelete = (job_id) => {
-        Axios.delete('https://ibad-api.herokuapp.com/react/api/Job/delete.php', {
+        Axios.delete('https://ibad-api.herokuapp.com/api/Job/delete.php', {
             headers: {
                 Authorization: ''
             },
@@ -120,7 +120,7 @@ export default class Job extends Component {
         // this.handleRead();
         // console.log('Component Mounted.')
 
-        Axios.get(`https://ibad-api.herokuapp.com/react/api/Job/read.php`)
+        Axios.get(`https://ibad-api.herokuapp.com/api/Job/read.php`)
             .then(response =>
 
                 // const response_data =[];
