@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
-import { CardStack, Card } from 'react-cardstack';
+// import { CardStack, Card } from 'react-cardstack';
 
 export default class JobAcceptance extends Component {
     // Code here
@@ -132,7 +132,7 @@ export default class JobAcceptance extends Component {
 
 
                                                     {/* <label htmlFor="InputEmail">Email address</label> */}
-                                                    <CardStack
+                                                    {/* <CardStack
                                                         height={250}
                                                         width={500}
                                                         background='#f8f8f8'
@@ -156,7 +156,7 @@ export default class JobAcceptance extends Component {
                                                             <h1>Number 2</h1>
                                                         </Card>
 
-                                                    </CardStack>
+                                                    </CardStack> */}
 
 
                                                 </div>
